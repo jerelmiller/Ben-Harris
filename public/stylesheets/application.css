@@ -3,7 +3,8 @@ body {
   background: black url("../images/background.png") no-repeat center top; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white; }
   a:visited {
     color: white; }
 
