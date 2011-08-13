@@ -1,4 +1,22 @@
 BenHarris::Application.routes.draw do
+  get "home/about"
+
+  get "home/blog"
+
+  get "home/works"
+
+  get "home/services"
+
+  get "home/index"
+
+  root :to => "home#index"
+
+  match '/blog' => 'home#blog', :as => 'blog'
+  match '/about' => 'home#about', :as => 'about'
+  match '/works' => 'home#works', :as => 'works'
+  match '/services' => 'home#services', :as => 'services'
+  match '/home' => 'home#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

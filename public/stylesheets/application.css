@@ -1,0 +1,93 @@
+body {
+  color: white;
+  background: black url("../images/background.png") no-repeat center top; }
+
+a {
+  text-decoration: none; }
+  a:visited {
+    color: white; }
+
+/* Main Menu */
+ul.menu {
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  margin-top: 7px;
+  line-height: 1.2em;
+  font-weight: bold; }
+  ul.menu li {
+    display: inline;
+    font-family: "Letter Gothic Std", "Comic Sans MS";
+    float: left;
+    width: 130px;
+    letter-spacing: 0.1em; }
+  ul.menu li.cursive {
+    font-family: "Lucida Handwriting", "Comic Sans"; }
+  ul.menu li.wide {
+    width: 250px; }
+  ul.menu li.negative_letter_spacing {
+    letter-spacing: -0.1em; }
+
+/* div styles */
+.menu_container {
+  margin: 50px auto 0px auto;
+  width: 820px; }
+
+.clear {
+  clear: both; }
+
+.center {
+  margin: 0px auto 0px auto; }
+
+.shadow_box {
+  -moz-box-shadow: 0px 0px 30px white;
+  -webkit-box-shadow: 0px 0px 30px white;
+  box-shadow: 0px 0px 30px #888888;
+  position: relative;
+  left: 25px;
+  padding: 25px; }
+  .shadow_box .title {
+    position: relative;
+    top: -45px;
+    margin-top: 0px;
+    font-family: "Letter Gothic Std", "Comic Sans MS"; }
+  .shadow_box .content {
+    position: relative;
+    top: -45px;
+    font-family: "Comic Sans MS"; }
+
+.large {
+  width: 500px;
+  height: 400px; }
+
+.shadow_box_large_margin {
+  margin-top: 80px; }
+
+/* Font Styles */
+.text_right {
+  text-align: right; }
+
+.text_left {
+  text-align: left; }
+
+.text_center {
+  text-align: center; }
+
+.text_large {
+  font-size: 1.5em; }
+
+.content_text {
+  font-size: 1.1em; }
+
+.bold {
+  font-weight: bold; }
+
+.grey {
+  color: #777777; }
+
+/* General Styles */
+.right {
+  float: right; }
+
+.left {
+  float: left; }
