@@ -1,75 +1,113 @@
 
 $linkColor: white
-$textColor: white
-$greyColor: #777
-$importantFont: 'Letter Gothic Std', 'Comic Sans MS'
-$contentFont: 'Comic Sans MS'
+$headerTextColor: white
+$textColor: #464C5B
+$headerBackgroundColor: #464C5B
+$greyColor: #E0E0E0
+$hoverColor: #8A8A8A
+$bodyFont: 'Futura', 'Comic Sans MS'
 
+/* Global Styles */
 body
   color: $textColor
-  background: black url('../images/background.png') no-repeat center top
+  background: $greyColor
+  margin: 0px
+  font-family: $bodyFont
 
 a
   text-decoration: none
   color: $linkColor
+  -webkit-transition: color .2s ease-in
+  -moz-transition: color .2s ease-in
+  -o-transition: color .2s ease-in
+  transition: color .2s ease-in
   &:visited
     color: $linkColor
+  &:hover
+    color: $hoverColor
+    text-shadow: 1px 2px 1px black
   
 /* Main Menu */
 ul.menu
-  text-align: center
-  font-size: 1.2em
+  font-size: 1.3em
   list-style-type: none
-  margin-top: 7px
-  line-height: 1.2em
-  font-weight: bold
+  padding: 0px
   li
     display: inline
-    font-family: $importantFont
-    float: left
-    width: 130px
-    letter-spacing: .1em
-  li.cursive
-    font-family: 'Lucida Handwriting', 'Comic Sans'
-  li.wide
-    width: 250px
-  li.negative_letter_spacing
-    letter-spacing: -.1em
+    margin: 0px 15px
 
 /* div styles */
-.menu_container
-  margin: 50px auto 0px auto
-  width: 820px
+.header
+  width: 100%
+  background: #464C5B
+  color: white
+  height: 130px
+  .logo
+    float: left
+    background-repeat: no-repeat
+    margin: 30px 0px 0px 50px
+    border: 0px
+    img
+      width: 320px
+      height: 80px
+      border: 0px
+  .menu_container
+    float: right
+    margin-right: 50px
+    position: relative
+    top: -50px
+
+.footer
+  background: $headerBackgroundColor
+  position: absolute
+  bottom: 50px
+  width: 100%
+  color: $headerTextColor
+  height: 80px
+  .contact_info
+    margin: 10px 50px 0px
+    text-align: right
+  .icon_row
+    margin: 10px 50px
+    .icon
+      width: 55px
+      height: 55px
+
+.roundHeader
+  background: $headerBackgroundColor
+  -moz-border-radius: 5px
+  -webkit-border-radius: 5px
+  border-radius: 5px
+  color: $headerTextColor
+  text-align: center
+  margin: 0px auto
+  h2
+    padding: 5px 0px
+
+.headerInvisible
+  margin: 0px auto
+
+.content
+  width: 1000px
+  margin: 0px auto
+  .columnLeft
+    width: 325px
+    float: left
+    margin-right: 20px
+  .columnMiddle
+    width: 325px
+    float: left
+    margin-right: 20px
+  .columnRight
+    float: left
+    width: 310px
+      
 
 .clear
   clear: both
 
 .center
   margin: 0px auto 0px auto
-
-.shadow_box
-  -moz-box-shadow: 0px 0px 30px white
-  -webkit-box-shadow: 0px 0px 30px white
-  box-shadow: 0px 0px 30px #888
-  position: relative
-  left: 25px
-  padding: 25px
-  .title
-    position: relative
-    top: -45px
-    margin-top: 0px
-    font-family: $importantFont
-  .content
-    position: relative
-    top: -45px
-    font-family: $contentFont
-
-.large
-  width: 500px
-  height: 400px
-
-.shadow_box_large_margin
-  margin-top: 80px
 
 /* Font Styles */
 .text_right
@@ -90,6 +128,9 @@ ul.menu
 .bold
   font-weight: bold
 
+.no_margin_right
+  margin-right: 0px
+
 .grey
   color: $greyColor
 
@@ -99,3 +140,6 @@ ul.menu
 
 .left
   float: left
+
+.mlr50
+  margin: 0px 50px
