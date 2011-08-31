@@ -3,16 +3,16 @@ class HomeController < ApplicationController
   def index
   end
 
-  def about
+  def contact
   end
 
   def blog
   end
 
-  def works
+  def portfolio
   end
 
-  def services
+  def resume
   end
 
 end
