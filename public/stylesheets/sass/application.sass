@@ -42,34 +42,47 @@ ul.menu
   background: #464C5B
   color: white
   height: 130px
-  .logo
-    float: left
-    background-repeat: no-repeat
-    margin: 30px 0px 0px 50px
-    border: 0px
-    img
-      width: 320px
-      height: 80px
+  .header_container
+    width: 1125px
+    margin: 0px auto
+    .logo
+      float: left
+      background-repeat: no-repeat
+      margin-top: 30px
       border: 0px
-  .menu_container
-    float: right
-    margin-right: 50px
-    position: relative
-    top: -50px
+      img
+        width: 320px
+        height: 80px
+        border: 0px
+    .menu_container
+      float: right
+      position: relative
+      top: -50px
 
 .footer
   background: $headerBackgroundColor
   width: 100%
   color: $headerTextColor
   height: 80px
-  .contact_info
-    margin: 10px 50px 0px
+  .footer_container
+    width: 1115px
+    margin: 0px auto
+    .contact_info
+      margin-top: 10px
+      text-align: right
+    .icon_row
+      margin-top: 10px
+      .icon
+        width: 55px
+        height: 55px
+
+.postFooter
+  margin: 20px 0px
+  .copyright
+    width: 1115px
+    margin: 0px auto
     text-align: right
-  .icon_row
-    margin: 10px 50px
-    .icon
-      width: 55px
-      height: 55px
+    font-size: .9em
 
 .roundHeader
   background: $headerBackgroundColor
@@ -86,19 +99,20 @@ ul.menu
   margin: 0px auto
 
 .content
-  width: 1000px
-  margin: 0px auto
+  width: 1115px
+  margin: 0px auto 20px auto
+  padding: 1px
   .columnLeft
-    width: 325px
+    width: 350px
     float: left
-    margin-right: 20px
+    margin-right: 30px
   .columnMiddle
-    width: 325px
+    width: 350px
     float: left
-    margin-right: 20px
+    margin-right: 30px
   .columnRight
     float: left
-    width: 310px
+    width: 350px
       
 
 .clear
@@ -138,6 +152,9 @@ ul.menu
 
 .left
   float: left
+
+.spacer30
+  margin-bottom: 30px
 
 .mlr50
   margin: 0px 50px

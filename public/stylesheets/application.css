@@ -33,34 +33,47 @@ ul.menu {
   background: #464c5b;
   color: white;
   height: 130px; }
-  .header .logo {
-    float: left;
-    background-repeat: no-repeat;
-    margin: 30px 0px 0px 50px;
-    border: 0px; }
-    .header .logo img {
-      width: 320px;
-      height: 80px;
+  .header .header_container {
+    width: 1125px;
+    margin: 0px auto; }
+    .header .header_container .logo {
+      float: left;
+      background-repeat: no-repeat;
+      margin-top: 30px;
       border: 0px; }
-  .header .menu_container {
-    float: right;
-    margin-right: 50px;
-    position: relative;
-    top: -50px; }
+      .header .header_container .logo img {
+        width: 320px;
+        height: 80px;
+        border: 0px; }
+    .header .header_container .menu_container {
+      float: right;
+      position: relative;
+      top: -50px; }
 
 .footer {
   background: #464c5b;
   width: 100%;
   color: white;
   height: 80px; }
-  .footer .contact_info {
-    margin: 10px 50px 0px;
-    text-align: right; }
-  .footer .icon_row {
-    margin: 10px 50px; }
-    .footer .icon_row .icon {
-      width: 55px;
-      height: 55px; }
+  .footer .footer_container {
+    width: 1115px;
+    margin: 0px auto; }
+    .footer .footer_container .contact_info {
+      margin-top: 10px;
+      text-align: right; }
+    .footer .footer_container .icon_row {
+      margin-top: 10px; }
+      .footer .footer_container .icon_row .icon {
+        width: 55px;
+        height: 55px; }
+
+.postFooter {
+  margin: 20px 0px; }
+  .postFooter .copyright {
+    width: 1115px;
+    margin: 0px auto;
+    text-align: right;
+    font-size: 0.9em; }
 
 .roundHeader {
   background: #464c5b;
@@ -77,19 +90,20 @@ ul.menu {
   margin: 0px auto; }
 
 .content {
-  width: 1000px;
-  margin: 0px auto; }
+  width: 1115px;
+  margin: 0px auto 20px auto;
+  padding: 1px; }
   .content .columnLeft {
-    width: 325px;
+    width: 350px;
     float: left;
-    margin-right: 20px; }
+    margin-right: 30px; }
   .content .columnMiddle {
-    width: 325px;
+    width: 350px;
     float: left;
-    margin-right: 20px; }
+    margin-right: 30px; }
   .content .columnRight {
     float: left;
-    width: 310px; }
+    width: 350px; }
 
 .clear {
   clear: both; }
@@ -128,6 +142,9 @@ ul.menu {
 
 .left {
   float: left; }
+
+.spacer30 {
+  margin-bottom: 30px; }
 
 .mlr50 {
   margin: 0px 50px; }
