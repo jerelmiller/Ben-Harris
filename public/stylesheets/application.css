@@ -30,12 +30,14 @@ ul.menu {
 /* div styles */
 .header {
   width: 100%;
+  min-width: 1035px;
   background: #464c5b;
   color: white;
   height: 130px; }
   .header .header_container {
-    width: 1125px;
-    margin: 0px auto; }
+    width: 1035px;
+    margin: 0px auto;
+    padding: 0px 5px; }
     .header .header_container .logo {
       float: left;
       background-repeat: no-repeat;
@@ -53,11 +55,13 @@ ul.menu {
 .footer {
   background: #464c5b;
   width: 100%;
+  min-width: 1035px;
   color: white;
   height: 80px; }
   .footer .footer_container {
-    width: 1115px;
-    margin: 0px auto; }
+    width: 1035px;
+    margin: 0px auto;
+    padding: 0px 5px; }
     .footer .footer_container .contact_info {
       margin-top: 10px;
       text-align: right; }
@@ -70,7 +74,7 @@ ul.menu {
 .postFooter {
   margin: 20px 0px; }
   .postFooter .copyright {
-    width: 1115px;
+    width: 1050px;
     margin: 0px auto;
     text-align: right;
     font-size: 0.9em; }
@@ -90,20 +94,20 @@ ul.menu {
   margin: 0px auto; }
 
 .content {
-  width: 1115px;
+  width: 1035px;
   margin: 0px auto 20px auto;
-  padding: 1px; }
+  padding: 0px 5px; }
   .content .columnLeft {
-    width: 350px;
+    width: 325px;
     float: left;
     margin-right: 30px; }
   .content .columnMiddle {
-    width: 350px;
+    width: 325px;
     float: left;
     margin-right: 30px; }
   .content .columnRight {
     float: left;
-    width: 350px; }
+    width: 325px; }
 
 .clear {
   clear: both; }
