@@ -21,7 +21,8 @@ a
   //-moz-transition: color .2s ease-in
   //-o-transition: color .2s ease-in
   //transition: color .2s ease-in
-  text-shadow: -2px -2px 5px #222, -2px -2px 4px #222, -2px 2px 5px #222, -2px 2px 4px #222
+  //text-shadow: -2px -2px 2px #222, -2px -2px 4px #222, -2px 2px 2px #222, -2px 2px 4px #222
+  font-weight: 100
   
 /* Main Menu */
 ul.menu
@@ -35,7 +36,7 @@ ul.menu
     text-align: center
     margin: 0 -7px 0 0
     line-height: 60px
-    font-weight: normal
+    font-weight: 100
     color: $linkColor
     -webkit-transition: all .2s ease-in
     -moz-transition: all .2s ease-in
@@ -51,7 +52,8 @@ ul.menu
       -o-transform: translate(1px, 1px)
       transform: translate(1px, 1px)
       a
-        text-shadow: -2px -2px 2px black, -2px 2px 2px black
+        //text-shadow: -2px -2px 2px black, -2px 2px 2px black
+        font-weight: 100
 
         
 
@@ -81,7 +83,7 @@ ul.menu
     .menu_container
       float: right
       position: relative
-      top: -70px
+      top: 45px
 
 .footer
   background: $headerBackgroundColor
@@ -92,6 +94,7 @@ ul.menu
   -webkit-box-shadow: 0px 3px 3px black
   -moz-box-shadow: 0px 3px 3px black
   box-shadow: 0px 3px 3px black
+  margin-top: 30px
   .footer_container
     width: 1035px
     margin: 0px auto
@@ -122,18 +125,18 @@ ul.menu
   -moz-box-shadow: 2px 2px 2px black
   box-shadow: 2px 2px 2px black
   color: $headerTextColor
-  //text-align: center
   margin: 0px auto
-  h2
+  p
     padding: 5px 20px
-    font-weight: normal
+    font-size: 1.5em
+    font-weight: 200
 
 .headerInvisible
   margin: 0px auto
 
 .content
   width: 1035px
-  margin: 0px auto 20px auto
+  margin: 30px auto 20px auto
   padding: 0px 5px
   .columnLeft
     width: 325px
